@@ -13,7 +13,7 @@ body {
 
   main {
     flex: 1;
-    background-image: url("hairless cat.avif");
+    background-image: url('hairless cat.avif');
     background-size: cover;
     padding: 20px;
   }
