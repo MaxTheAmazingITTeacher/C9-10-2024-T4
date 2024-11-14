@@ -1,0 +1,66 @@
+.button {
+    display: block;
+    width: 115px;
+    height: 25px;
+    background: #28c430;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    line-height: 25px;
+    float:left; 
+    margin-right:10px;
+}
+.black {
+    background: black
+}
+.blue {
+    background: blue
+}
+.darkred {
+    background: darkred
+}
+.green {
+    background: greenyellow
+}
+.light {
+    background: lightblue
+}
+.blueviolet {
+    background: blueviolet
+}
+.violet {
+    background: violet
+}
+.nice {
+    background: rgb(2, 255, 196)
+}
+.purple {
+    background: rgb(139, 0, 113)
+}
+.red {
+    background: rgb(139, 199, 17)
+}
+
+#callumfire {
+    width:30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#bed.jpg {
+    width:30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+main {
+    flex: 1;
+    background-image: url("callumwhite.jpg");
+    background-size: cover;
+    padding: 250px;
+  }
