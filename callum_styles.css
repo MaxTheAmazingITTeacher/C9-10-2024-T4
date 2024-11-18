@@ -88,7 +88,7 @@ main {
     border-style: hidden;
 }
 .light {
-    border-style: inherit;
+    border-style: hidden;
 }
 .violet {
     border-style: initial;
@@ -136,5 +136,26 @@ main {
   opacity: 1;
   right: 0;
 }
+.button {
+    display: inline;
+}
+.button {
+    float: left;
+}
 
-
+h1 {
+    text-shadow: 2px 2px 5px darkblue;
+}
+h2 {
+    text-shadow: 0 0 3px rgb(30, 185, 51);
+}
+h3 {
+    color: violet;
+    text-shadow: -1px 0 rgb(30, 185, 51), 0 1px rgb(30, 185, 51), 1px 0 rgb(30, 185, 51), 0 -1px rgb(30, 185, 51);
+}
+div {
+    transform: translate(50px, 100px);
+}
+img {
+    border-radius: 50px;
+}
