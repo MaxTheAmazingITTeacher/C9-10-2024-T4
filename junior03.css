@@ -4,3 +4,14 @@ main {
     background-size: cover;
     padding: 20px;
   }
+  a {
+    background-repeat: no-repeat;
+    background-color: #f80000; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}

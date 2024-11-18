@@ -1,7 +1,17 @@
 main {
     background-image: url("juniorkidunderbed.jpg");
     background-size : 2200px;
-  
+  background-repeat: no-repeat;
   }  
+  a {
+    background-color: #e90000; /* Green */
+    border: none;
+    color: rgb(255, 251, 5);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
 
   
