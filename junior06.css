@@ -1,0 +1,10 @@
+main {
+    flex: 1;
+    background-image: url("juniorbadchoice.jpg");
+    background-size: cover;
+    padding: 20px;
+    background-size: 1500px;
+    background-position: 500px 1200px ;
+    background-size: 1300px;
+    
+  }

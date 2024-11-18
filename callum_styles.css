@@ -1,17 +1,17 @@
-.button {
+/* .button {
     display: block;
-    width: 115px;
-    height: 25px;
+    width: 135px;
+    height: 35px;
     background: #28c430;
-    padding: 10px;
+    padding: 30px;
     text-align: center;
-    border-radius: 5px;
+    border-radius: 15px;
     color: white;
     font-weight: bold;
-    line-height: 25px;
+    line-height: 35px;
     float:left; 
-    margin-right:10px;
-}
+    margin-right:30px;
+} */
 .black {
     background: black
 }
@@ -62,5 +62,90 @@ main {
     flex: 1;
     background-image: url("callumwhite.jpg");
     background-size: cover;
-    padding: 250px;
+    padding: 150px;
   }
+
+.blueviolet {
+    border-style: dotted;
+    border: 2px solid violet;
+    border-radius: 5px;
+    background-color: powderblue;
+  }
+.black {
+    border-style: dashed;
+    padding: 25px 50px 75px 100px;
+}
+.blue {
+    border-style: double;
+    width: 300px;
+    border: 15px ridge red;
+    padding: 50px;
+    margin: 20px;
+}
+.darkred {border-style: groove;
+}
+.green {
+    border-style: hidden;
+}
+.light {
+    border-style: inherit;
+}
+.violet {
+    border-style: initial;
+}
+.nice {
+    border-style: inset;
+}
+.purple { border-radius: 50%;
+    border-style: solid;
+}
+.red {
+    border-style: ridge;
+}
+
+.button {
+  border-radius: 4px;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.button:hover span {
+  padding-right: 25px;
+}
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.button {
+    display: inline;
+}
+.button {
+    float: left;
+}
+
+#button {
+    border: 10px;
+    padding: 15px;
+    border-image: url(callumcarcrash.webp) 30 round;
+}
+
