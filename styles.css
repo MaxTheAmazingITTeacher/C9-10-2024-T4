@@ -13,7 +13,7 @@ body {
 
   main {
     flex: 1;
-    background-image: url("indexbackground.png");
+    background-image: url("maxbackground.png");
     background-size: cover;
     padding: 20px;
   }
