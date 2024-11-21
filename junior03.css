@@ -1,17 +1,34 @@
 main {
     flex: 1;
-    background-image: url("mariocartdoor.png");
+    background-image: url("juniormariocartdoor.png");
     background-size: cover;
     padding: 20px;
   }
   a {
-    background-repeat: no-repeat;
     background-color: #f80000; /* Green */
     border: none;
-    color: white;
+    color: rgb(230, 255, 9);
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+}
+h1 {
+  font-size: 69px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+p {
+  font-size: 20px;
+}
+body {
+  color: blue;
+}
+
+h1 {
+  color: rgb(250, 0, 0);
 }
