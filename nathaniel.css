@@ -3,6 +3,16 @@ a {
     background-image: linear-gradient(to bottom right, maroon, orange);
 }
 h2, p {
-    color: white;
-    text-shadow: 2px 2px 5px red, 2px 2px 3px darkblue;
+    color: darkblue;
+    text-shadow: 2px 2px 5px red, 2px 2px 5px grey;
+}
+footer {
+    background: transparent;
+}
+footerSection {
+    background-color: #f0f0f0;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
