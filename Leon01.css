@@ -1,4 +1,6 @@
 main {
     background-image: url("Leon 1.avif");
   }
-  
+  h2, p {
+    color: white;
+}
