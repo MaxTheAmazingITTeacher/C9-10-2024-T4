@@ -3,8 +3,8 @@ a {
     background-image: linear-gradient(to bottom right, maroon, orange);
 }
 h2, p {
-    color: darkblue;
-    text-shadow: 2px 2px 5px red, 2px 2px 5px grey;
+    color: black;
+    text-shadow: -2px -2px 5px red, 2px 2px 5px blue;
 }
 footer {
     background: transparent;
