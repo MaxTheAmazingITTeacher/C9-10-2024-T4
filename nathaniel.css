@@ -1,4 +1,18 @@
 a {
-    border-radius: 0px 15px 0px 15px;
-    background-color: brown;
+    border-radius: 0px 15px 15px 15px;
+    background-image: linear-gradient(to bottom right, maroon, orange);
+}
+h2, p {
+    color: darkblue;
+    text-shadow: 2px 2px 5px red, 2px 2px 5px grey;
+}
+footer {
+    background: transparent;
+}
+footerSection {
+    background-color: #f0f0f0;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
