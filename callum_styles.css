@@ -1,7 +1,7 @@
-/* .button {
+.button {
     display: block;
     width: 135px;
-    height: 35px;
+    height: 50px;
     background: #28c430;
     padding: 30px;
     text-align: center;
@@ -11,7 +11,7 @@
     line-height: 35px;
     float:left; 
     margin-right:30px;
-} */
+}
 .black {
     background: black
 }
@@ -88,7 +88,7 @@ main {
     border-style: hidden;
 }
 .light {
-    border-style: inherit;
+    border-style: hidden;
 }
 .violet {
     border-style: initial;
@@ -143,9 +143,44 @@ main {
     float: left;
 }
 
-#button {
-    border: 10px;
-    padding: 15px;
-    border-image: url(callumcarcrash.webp) 30 round;
+h1 {
+    text-shadow: 2px 2px 5px darkblue;
 }
-
+h2 {
+    text-shadow: 0 0 3px rgb(30, 185, 51);
+}
+h3 {
+    color: violet;
+    text-shadow: -1px 0 rgb(30, 185, 51), 0 1px rgb(30, 185, 51), 1px 0 rgb(30, 185, 51), 0 -1px rgb(30, 185, 51);
+}
+div {
+    transform: translate(50px, 100px);
+}
+img {
+    border-radius: 50px;
+}
+/* the animation code*/
+@keyframes example {
+    0% {background-color: violet; left: 0px; top: 0px;}
+  10% {background-color: blueviolet; left:200px; top: 0px;}
+  20%  {background-color: blue; left: 200px; top: 200px;}
+  30% {background-color: darkblue; left: 0px; top: 200px;}
+   40% {background-color: black; left: 0px; top:  0px;}
+    50% {background-color: violet; left: 0px; top: 0px;}
+    60% {background-color: blueviolet; left:200px; top: 0px;}
+    70%  {background-color: blue; left: 200px; top: 200px;}
+    80% {background-color: darkblue; left: 0px; top: 200px;}
+      90% {background-color: black; left: 0px; top:  0px;}
+      100% {background-color: black; left: 0px; top:  0px;}
+}
+/* thw element to apply the anination to */
+.button {
+    width: 150px;
+    height: 80px;
+    position: relative;
+    background-color: violet;
+    animation-name: example;
+    animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
