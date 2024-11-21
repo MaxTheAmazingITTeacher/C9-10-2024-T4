@@ -4,4 +4,21 @@
     background-size: 85%,100%;
     background-position: 500px,500px;
   }
-
+  body {
+    color: rgb(0, 0, 0);
+  }
+  
+  h1 {
+    color: rgb(255, 0, 0);
+  }
+  h1 {
+    font-size: 60px;
+  }
+  
+  h2 {
+    font-size: 30px;
+  }
+  
+  p {
+    font-size: 20px;
+  }
