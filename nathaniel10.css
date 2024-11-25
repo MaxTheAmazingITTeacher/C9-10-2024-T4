@@ -1,3 +1,7 @@
 main {
-    background-image: url("nathanielSpeedometer.webp");
+    background-image: url("nathanielEngine.webp");
+}
+
+h2, p {
+    color: rgb(255, 255, 255)
 }
