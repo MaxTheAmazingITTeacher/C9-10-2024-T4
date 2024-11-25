@@ -1,6 +1,6 @@
 main {
     background-image: url("juniorkidunderbed.jpg");
-    background-size : 2200px;
+    background-size : 2000px;
   background-repeat: no-repeat;
   }  
   a {
@@ -13,5 +13,24 @@ main {
     display: inline-block;
     font-size: 16px;
 }
+body {
+  color: rgb(12, 207, 221);
+}
+
+h1 {
+  color: rgb(240, 0, 0);
+}
+h1 {
+  font-size: 69px;
+}
+
+h2 {
+  font-size: 35px;
+}
+
+p {
+  font-size: 30px;
+}
+
 
   

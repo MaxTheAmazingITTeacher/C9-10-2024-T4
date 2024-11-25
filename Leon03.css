@@ -3,5 +3,17 @@ main {
 
   }
   h2, p {
-    color: white;
+    color: rgb(195, 12, 231);
+}
+h1 {
+  font-size: 69px;
+}
+
+h2 {
+  font-size: 49px;
+  color:black;
+}
+
+p {
+  font-size: 39px;
 }

@@ -2,5 +2,16 @@ main {
     background-image: url("Leon 1.avif");
   }
   h2, p {
-    color: white;
+    color: rgb(23, 241, 23);
+}
+h1 {
+  font-size: 69px;
+}
+
+h2 {
+  font-size: 49px;
+}
+
+p {
+  font-size: 39px;
 }
