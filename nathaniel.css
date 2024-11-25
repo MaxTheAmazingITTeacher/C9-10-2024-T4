@@ -5,6 +5,7 @@ a {
 h2, p {
     color: rgb(25, 25, 25);
     text-shadow: -1px -1px 5px rgb(127, 0, 0), 1px 1px 5px rgb(0, 0, 127);
+    text-shadow: none;
     margin-right: 20px;
 }
 footer {
