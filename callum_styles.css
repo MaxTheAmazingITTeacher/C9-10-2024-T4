@@ -42,6 +42,9 @@
 .red {
     background: rgb(139, 199, 17)
 }
+.peach {
+    background: peachpuff;
+}
 
 #callumfire {
     width:30%;
@@ -153,6 +156,10 @@ h3 {
     color: violet;
     text-shadow: -1px 0 rgb(30, 185, 51), 0 1px rgb(30, 185, 51), 1px 0 rgb(30, 185, 51), 0 -1px rgb(30, 185, 51);
 }
+h5 {
+    color: peachpuff;
+    font-size: 30px;
+}
 div {
     transform: translate(50px, 100px);
 }
@@ -166,13 +173,14 @@ img {
   20%  {background-color: blue; left: 200px; top: 200px;}
   30% {background-color: darkblue; left: 0px; top: 200px;}
    40% {background-color: black; left: 0px; top:  0px;}
-    50% {background-color: violet; left: 0px; top: 0px;}
-    60% {background-color: blueviolet; left:200px; top: 0px;}
-    70%  {background-color: blue; left: 200px; top: 200px;}
-    80% {background-color: darkblue; left: 0px; top: 200px;}
-      90% {background-color: black; left: 0px; top:  0px;}
-      100% {background-color: black; left: 0px; top:  0px;}
+    50% {background-color: darkred; left: 0px; top: 0px;}
+    60% {background-color: red; left:200px; top: 0px;}
+    70%  {background-color: orangered; left: 200px; top: 200px;}
+    80% {background-color: orange; left: 0px; top: 200px;}
+      90% {background-color: yellow; left: 0px; top:  0px;}
+      100% {background-color: yellowgreen; left: 0px; top:  0px;}
 }
+
 /* thw element to apply the anination to */
 .button {
     width: 150px;
@@ -182,5 +190,5 @@ img {
     animation-name: example;
     animation-duration: 5s;
   animation-iteration-count: infinite;
-  animation-direction: alternate;
-}
+  animation-direction: normal;
+}      
