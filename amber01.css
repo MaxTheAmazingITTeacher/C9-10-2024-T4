@@ -5,11 +5,14 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  font: 1em sans-serif;
 }
 
 header {
   background-color: #ffffff;
   padding: 20px;
+  font: 1em sans-serif;
+
 }
 
 main {
@@ -17,6 +20,9 @@ main {
   background-image: url("amberbg.png");
   background-size: cover;
   padding: 20px;
+  font-size: 22;
+font: 1em sans-serif;
+  
 }
 
 footer {
@@ -25,6 +31,7 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100%;
+  font: 1em sans-serif;
 }
 
 a {
@@ -36,4 +43,5 @@ a {
   text-decoration: none;
   display: inline-block;
   font-size: 16;
+  font: 1em sans-serif;
 }
