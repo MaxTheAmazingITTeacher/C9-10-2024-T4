@@ -3,8 +3,9 @@ a {
     background-image: linear-gradient(to bottom right, maroon, orange);
 }
 h2, p {
-    color: black;
-    text-shadow: -2px -2px 5px red, 2px 2px 5px blue;
+    color: rgb(25, 25, 25);
+    text-shadow: -1px -1px 5px rgb(127, 0, 0), 1px 1px 5px rgb(0, 0, 127);
+    text-shadow: none;
     margin-right: 20px;
 }
 footer {
@@ -17,4 +18,8 @@ footerSection {
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+main {
+    background-repeat: no-repeat;
+    background-size: 100vw;
 }
