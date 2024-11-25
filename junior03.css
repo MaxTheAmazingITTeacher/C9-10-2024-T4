@@ -3,6 +3,8 @@ main {
     background-image: url("juniormariocartdoor.png");
     background-size: cover;
     padding: 20px;
+    background-size: 1700px;
+    background-repeat: repeat-x;
   }
   a {
     background-color: #f80000; /* Green */
@@ -19,14 +21,14 @@ h1 {
 }
 
 h2 {
-  font-size: 30px;
+  font-size: 35px;
 }
 
 p {
-  font-size: 20px;
+  font-size: 40px;
 }
 body {
-  color: blue;
+  color: rgb(0, 238, 255);
 }
 
 h1 {
