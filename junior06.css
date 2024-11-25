@@ -3,9 +3,9 @@ main {
     background-image: url("juniorbadchoice.jpg");
     background-size: cover;
     padding: 20px;
-    background-size: 1500px;
-    background-position: 500px 1200px ;
-    background-size: 1300px;
+    background-size: 2000px;
+    background-position:400px 1200px ;
+    
     
   }
   a {
@@ -23,11 +23,11 @@ h1 {
 }
 
 h2 {
-  font-size: 30px;
+  font-size: 40px;
 }
 
 p {
-  font-size: 14px;
+  font-size: 30px;
 }
 body {
   color: rgb(4, 209, 245);

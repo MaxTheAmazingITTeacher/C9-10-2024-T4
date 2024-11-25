@@ -3,7 +3,8 @@ main {
     background-image: url("junior\ bowser.jpg");
     background-size: cover;
     padding: 20px;
-    background-size: 1700px;
+    background-size: 2000px;
+    background-repeat: no-repeat;
     
   }
   a {
@@ -25,10 +26,10 @@ h2 {
 }
 
 p {
-  font-size: 14px;
+  font-size: 30px;
 }
 body {
-  color: blue;
+  color: rgb(0, 209, 224);
 }
 
 h1 {
