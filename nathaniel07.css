@@ -1,3 +1,7 @@
 main {
     background-image: url("nathanielTrafficJam.jpg");
 }
+
+h2, p {
+    color: rgb(255, 255, 255)
+}
