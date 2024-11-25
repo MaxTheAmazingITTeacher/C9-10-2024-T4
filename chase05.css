@@ -5,13 +5,13 @@
     background-position: 500px,500px;
   }
   body {
-    color: rgb(0, 0, 0);
+    color: rgb(0, 240, 248);
   }
   
   h1 {
     color: rgb(255, 0, 0);
   }
-  h1 {
+  h1 { 
     font-size: 60px;
   }
   
@@ -20,5 +20,5 @@
   }
   
   p {
-    font-size: 20px;
+    font-size: 35px;
   }

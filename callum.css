@@ -1,0 +1,161 @@
+main {
+    flex: 1;
+    background-image: url("callumlock2.jpg");
+    background-size: contain;
+    padding: 125px;
+  }
+  .button {
+    display: block;
+    width: 135px;
+    height: 35px;
+    background: #28c430;
+    padding: 30px;
+    text-align: center;
+    border-radius: 15px;
+    color: white;
+    font-weight: bold;
+    line-height: 35px;
+    float:left; 
+    margin-right:30px;
+}
+.black {
+    background: black
+}
+.blue {
+    background: blue
+}
+.darkred {
+    background: darkred
+}
+.green {
+    background: greenyellow
+}
+.light {
+    background: lightblue
+}
+.blueviolet {
+    background: blueviolet
+}
+.violet {
+    background: violet
+}
+.nice {
+    background: rgb(2, 255, 196)
+}
+.purple {
+    background: rgb(139, 0, 113)
+}
+.red {
+    background: rgb(139, 199, 17)
+}
+
+#callumfire {
+    width:30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#bed.jpg {
+    width:30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.blueviolet {
+    border-style: dotted;
+    border: 2px solid violet;
+    border-radius: 5px;
+    background-color: powderblue;
+  }
+.black {
+    border-style: dashed;
+    padding: 25px 50px 75px 100px;
+}
+.blue {
+    border-style: double;
+    width: 300px;
+    border: 15px ridge red;
+    padding: 50px;
+    margin: 20px;
+}
+.darkred {border-style: groove;
+}
+.green {
+    border-style: hidden;
+}
+.light {
+    border-style: hidden;
+}
+.violet {
+    border-style: initial;
+}
+.nice {
+    border-style: inset;
+}
+.purple { border-radius: 50%;
+    border-style: solid;
+}
+.red {
+    border-style: ridge;
+}
+
+.button {
+  border-radius: 4px;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.button:hover span {
+  padding-right: 25px;
+}
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.button {
+    display: inline;
+}
+.button {
+    float: left;
+}
+
+h1 {
+    text-shadow: 2px 2px 5px darkblue;
+}
+h2 {
+    text-shadow: 0 0 3px rgb(30, 185, 51);
+}
+h3 {
+    color: violet;
+    text-shadow: -1px 0 rgb(30, 185, 51), 0 1px rgb(30, 185, 51), 1px 0 rgb(30, 185, 51), 0 -1px rgb(30, 185, 51);
+}
+div {
+    transform: translate(50px, 100px);
+}
+img {
+    border-radius: 50px;
+}

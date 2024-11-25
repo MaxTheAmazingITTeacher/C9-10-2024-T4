@@ -1,5 +1,7 @@
 main {
     background-image: url("chasepeach.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
   }
   h1 {
     font-size: 60px;
@@ -10,7 +12,7 @@ main {
   }
   
   p {
-    font-size: 20px;
+    font-size: 35px;
   }
   body {
     color: rgb(0, 0, 0);
