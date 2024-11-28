@@ -1,7 +1,22 @@
 main {
-    background-image: url("Leon 2.webp");
+  background-image: url("Leon 2.webp");
 
-  }
-  h2, p {
-    color: white;
+}
+
+
+p {
+  color: rgb(118, 21, 197);
+}
+
+h1 {
+  font-size: 69px;
+}
+
+h2 {
+  font-size: 49px;
+  color:black;
+}
+
+p {
+  font-size: 39px;
 }

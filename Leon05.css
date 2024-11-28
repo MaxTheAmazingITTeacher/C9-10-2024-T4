@@ -4,7 +4,18 @@ main {
 background-size: px;
   }
   h2, p {
-    color: white;
+    color: rgb(105, 24, 236);
 }
-  
+h1 {
+  font-size: 69px;
+}
+
+h2 {
+  font-size: 49px;
+  color:rgb(28, 153, 24);
+}
+
+p {
+  font-size: 39px;
+}
   

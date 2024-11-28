@@ -4,6 +4,17 @@ main {
 background-size: px;
   }
   h2, p {
-    color: white;
+    color: rgb(76, 18, 236);
 }
-  
+h1 {
+  font-size: 69px;
+}
+
+h2 {
+  font-size: 49px;
+  color:rgb(18, 64, 192);
+}
+
+p {
+  font-size: 39px;
+}
