@@ -1,9 +1,7 @@
 main {
     flex: 1;
     background-image: url("junioremptyfueltank.webp");
-    background-size: cover;
     padding: 20px;
-    background-size: 1500px;
     background-size: cover;
     
     
@@ -23,16 +21,16 @@ h1 {
 }
 
 h2 {
-  font-size: 30px;
+  font-size: 40px;
 }
 
 p {
-  font-size: 14px;
+  font-size: 20px;
 }
 body {
-  color: blue;
+  color: rgb(0, 225, 255);
 }
 
 h1 {
-  color: rgb(240, 0, 0);
+  color: rgb(241, 0, 0);
 }
