@@ -3,8 +3,9 @@ main {
     background-image: url("juniorbadchoice.jpg");
     background-size: cover;
     padding: 20px;
-    background-size: 2000px;
-    background-position:400px 1200px ;
+    background-size: 1850px;
+    background-repeat: no-repeat;
+    
     
     
   }

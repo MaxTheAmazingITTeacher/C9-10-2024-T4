@@ -1,8 +1,9 @@
 
   main {
     background-image: url("Chaseeye.jpg");
-    background-size: 85%,100%;
     background-position: 500px,500px;
+  
+    background-size: 85%, 100%;
   }
   body {
     color: rgb(0, 0, 0);
