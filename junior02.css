@@ -1,7 +1,8 @@
 main {
     background-image: url("juniorkidunderbed.jpg");
-    background-size : 2000px;
+    background-size : 2400px;
   background-repeat: no-repeat;
+  background-size: cover;
   }  
   a {
     background-color: #e90000; /* Green */
