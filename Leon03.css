@@ -1,5 +1,7 @@
 main {
     background-image: url("Leon\ 2.avif");
+    background-repeat: no-repeat;
+    background-size: 2600px;
 
   }
   h2, p {
