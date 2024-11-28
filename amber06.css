@@ -42,3 +42,7 @@ a {
   font-size: 16px;
   font: 1em sans-serif;
 }
+
+h2 {
+  text-decoration: underline;
+}
