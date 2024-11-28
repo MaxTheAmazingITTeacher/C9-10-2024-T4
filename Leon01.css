@@ -1,5 +1,7 @@
 main {
     background-image: url("Leon 1.avif");
+    background-repeat: no-repeat;
+    background-size: 2580px;
   }
   h2, p {
     color: rgb(23, 241, 23);
