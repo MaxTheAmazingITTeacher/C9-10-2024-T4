@@ -2,5 +2,9 @@
 
   main {
     background-image: url("tom desks.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: x-large;
   }
+
 

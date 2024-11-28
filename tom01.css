@@ -2,5 +2,8 @@
 
   main {
     background-image: url("tom hallway.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: x-large;
   }
 
