@@ -2,6 +2,9 @@
 
   main {
     background-image: url("tom bowser.jpg");
-    color:rgb(0, 4, 255)
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: x-large;
+    color:rgb(101, 247, 4) 
   }
 
