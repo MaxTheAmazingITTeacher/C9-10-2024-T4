@@ -21,3 +21,6 @@ main {
   h1 {
     color: rgb(255, 0, 0);
   }
+  a {
+    background-color: #2d00f5; /* Green */
+  }
