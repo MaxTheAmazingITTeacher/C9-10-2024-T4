@@ -1,9 +1,9 @@
 main {
     flex: 1;
     background-image: url("junior\ bowser.jpg");
-    background-size: cover;
     padding: 20px;
-    background-size: 1700px;
+    background-repeat: no-repeat;
+    background-size: cover;
     
   }
   a {
@@ -25,10 +25,10 @@ h2 {
 }
 
 p {
-  font-size: 14px;
+  font-size: 30px;
 }
 body {
-  color: blue;
+  color: rgb(0, 209, 224);
 }
 
 h1 {
